@@ -42,6 +42,6 @@ done
 git add .
 git commit -m "openwrt mediatek kernel $KERNEL"
 git format-patch HEAD~1
-mv 0001-openwrt-mediatek-kernel-$KERNEL.patch
+mv 0001-openwrt-mediatek-kernel-$KERNEL.patch \
    ../00001-openwrt-mediatek-kernel-$KERNEL.patch
 
