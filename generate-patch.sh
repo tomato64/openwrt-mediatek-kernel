@@ -1,7 +1,7 @@
 #!/bin/bash
 
-KERNEL=6.6.53
-HASH=123cb3793fb1bf86df8173d620d05a6169db56fc
+KERNEL=6.6.57
+HASH=f9da81d32f3299dc91858c3718c4d61d1073f603
 
 rm -rf linux*
 rm -rf openwrt
