@@ -1,7 +1,7 @@
 #!/bin/bash
 
-KERNEL=6.6.58
-HASH=d7ed4c77b526a1b9e2b914b817a6816dffe11484
+KERNEL=6.6.60
+BRANCH=openwrt-24.10
 
 rm -rf linux*
 rm -rf openwrt
@@ -9,7 +9,7 @@ rm 00001-openwrt-mediatek-kernel*
 
 git clone https://github.com/openwrt/openwrt.git
 cd openwrt
-git checkout $HASH
+git checkout $BRANCH
 cd ..
 
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-$KERNEL.tar.xz
