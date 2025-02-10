@@ -1,11 +1,11 @@
 #!/bin/bash
 
-KERNEL=6.6.63
-BRANCH=v24.10.0-rc1
+KERNEL=6.6.73
+BRANCH=v24.10.0
 
 rm -rf linux*
 rm -rf openwrt
-rm 00001-openwrt-mediatek-kernel*
+rm -f 00001-openwrt-mediatek-kernel*
 
 git clone https://github.com/openwrt/openwrt.git
 cd openwrt
