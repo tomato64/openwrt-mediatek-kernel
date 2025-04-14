@@ -1,7 +1,7 @@
 #!/bin/bash
 
-KERNEL=6.6.73
-BRANCH=v24.10.0
+KERNEL=6.6.86
+BRANCH=v24.10.1
 
 rm -rf linux*
 rm -rf openwrt
